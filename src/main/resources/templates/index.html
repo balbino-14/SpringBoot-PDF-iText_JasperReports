@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Hola SpringBoot</title>
+</head>
+<body>
+<h1 th:text="${titulo}"></h1>
+
+<a th:href="@{/descargaPdfIText(format=pdf)}"><label th:text="${descargaItext}"></label></a>
+<br/>
+<a th:href="@{/descargaPdfJasper}"><label th:text="${descargaJasper}"></label></a>
+</body>
+</html>
