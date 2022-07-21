@@ -20,7 +20,7 @@ public class DownloadJasperViewPdf extends AbstractPdfView{
 			HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
 		PdfPTable tabla = new PdfPTable(1);
-		tabla.addCell("Cliente");
+		tabla.addCell("Clientes");
 		tabla.addCell("Jose");
 		tabla.addCell("Juan");
 		tabla.addCell("Antony");
